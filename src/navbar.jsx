@@ -26,7 +26,7 @@ const Navbar = () => {
            <div className="nav-center">
                <div className="nav-header">
                    <img src={logo} className="logo" alt="logo" />
-                   <button className="nav-click" onClick={toggleLinks}>
+                   <button className={showLinks? 'nav-click rotate' : 'nav-click'} onClick={toggleLinks}>
                        <FaBars />
                    </button>
                </div>
